@@ -2,7 +2,7 @@ body {
     background-color: blue;
     color      : #ffffff;
     font-family: 'Major Mono Display', monospace;
-    font-size  : 30px;
+    font-size  : 1.5em;
 }
 
 /* Total width of 640px */
@@ -46,7 +46,12 @@ p strong {
 }
 
 #gameInfo {
-    text-align: center;    
+    text-align: center;
+    padding-bottom: 5%;    
+}
+
+#guessStats > #list {
+    text-align: center;
 }
 
 #guessList {
@@ -55,4 +60,8 @@ p strong {
     background-color: white;
     letter-spacing: 0.70em;
     text-align: center;
+}
+
+#answer {
+    color: green;
 }
