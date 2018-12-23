@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Cole Smith">
+
+  <title>1 Digit Code Breaker</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+  <body>
+    <section class="container">
+      <h1>Single Digit Code Breaker!</h1>
+
+      <div id="userStats">
+        <p>Codes Cracked:<strong><span id="winCount"></span></strong></p>
+        <p>Failed Attempts:<strong><span id="lossCount"></span></strong></p>
+      </div>
+
+      <section id="gameInfo">
+      <p>You are a master hacker. You've been called upon to open this safe; can you crack it!?</p>
+      <br>
+      <p>(Hint: It's definitely not <strong><span id="answer"></span></strong>)</p>
+      </section>
+      <br>
+
+      <section id="guessStats">
+      <p id="countdown">Codes until self-destruct: <strong><span id="triesRemaining"></span></strong></p>
+      <p id="list">Codes guessed so far:</p>
+      <p><span id="guessList"></span></p>
+      </section>
+
+    </section>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>
